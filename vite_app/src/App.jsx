@@ -1,13 +1,12 @@
-import Navbar from './assets/components/Navbar'
-import './App.css'
+import './index.css'
+import { createBrowserRouter , RouterProvider} from 'react-router-dom'
+import Weather from './components/Weather'
+
 
 function App() {
-  return (
-    <>
-      <div>
-        <Navbar/>
-      </div>
-    </>
+  
+  return(
+    <div className="container"><Weather/></div>
   )
 }
 
